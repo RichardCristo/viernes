@@ -1,0 +1,52 @@
+.container {
+    background-color: rgba(13.3, 13.3, 13.3, 0.959); /* Fondo gris */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bet {
+    font-size: 24px;
+    color: #ffffff; /* Texto "Bet" en blanco */
+  }
+  
+  .poli {
+    font-size: 24px;
+    color: #2BFFAA; /* Texto "poli" en verde */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ddd; /* Fondo gris claro para la tabla */
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ccc; /* Fondo gris más oscuro para filas pares */
+  }
+  
+  button {
+    background-color: #555;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
